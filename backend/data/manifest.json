@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-04T07:45:13+00:00",
+  "results": [
+    {
+      "dataset": "Bangladeshi EEZ (200 NM) (MRGID 8481)",
+      "status": "OK",
+      "detail": "1 feature(s), GeoJSON; saved to data\\gis\\bd_eez.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=mrgid%3D8481&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T07:45:08+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Bangladeshi territorial sea (12 NM) (MRGID 49195)",
+      "status": "OK",
+      "detail": "1 feature(s), GeoJSON; saved to data\\gis\\bd_territorial_sea_12nm.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez_12nm&cql_filter=mrgid%3D49195&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T07:45:10+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Off Cox's Bazar (approx.)",
+      "status": "OK",
+      "detail": "168 hourly rows"
+    },
+    {
+      "dataset": "Off Chattogram (approx.)",
+      "status": "OK",
+      "detail": "168 hourly rows"
+    },
+    {
+      "dataset": "Near St. Martin's Island",
+      "status": "OK",
+      "detail": "168 hourly rows"
+    },
+    {
+      "dataset": "Off Sundarbans coast, south of Mongla (approx.)",
+      "status": "OK",
+      "detail": "168 hourly rows"
+    },
+    {
+      "dataset": "BMD cyclone signals",
+      "status": "HAND-TYPED",
+      "detail": "11 sea-port signals saved to data\\weather\\bmd_signals_paraphrased.json; unverified: [2, 4, 7, 9]; river ports empty"
+    },
+    {
+      "dataset": "Emergency contacts",
+      "status": "HAND-TYPED",
+      "detail": "3 numbers saved to output\\emergency_contacts.json (previous file backed up to output\\emergency_contacts.json.bak)"
+    }
+  ]
+}

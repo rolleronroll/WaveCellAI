@@ -1,0 +1,14 @@
+[
+  {
+    "code": 1,
+    "sms": "Signal 1: Distant cautionary. Squall possible in deep sea. Monitor radio."
+  },
+  {
+    "code": 3,
+    "sms": "Signal 3: Local cautionary. Port threatened by squally weather. Return near coast."
+  },
+  {
+    "code": 8,
+    "sms": "CRITICAL Signal 8: Great danger. Severe cyclone crossing coast. Take shelter NOW."
+  }
+]

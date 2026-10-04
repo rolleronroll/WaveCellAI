@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "kind": "paraphrased by hand, NOT downloaded, NOT verbatim",
+    "primary_source_checked": false,
+    "secondary_references": [
+      "https://www.tbsnews.net/bangladesh/environment/what-signals-1-11-mean-maritime-ports-during-storms-860361",
+      "https://www.dhakatribune.com/bangladesh/2022/10/24/do-you-know-the-meaning-of-each-marine-signals-1",
+      "https://unb.com.bd/category/bangladesh/what-each-cyclone-warning-signal-means/103201",
+      "https://en.banglatribune.com/national/news/44157/Signal-codes-for-storm"
+    ],
+    "unverified_codes": [
+      2,
+      4,
+      7,
+      9
+    ],
+    "group_note": "Higher numbers within the danger and great-danger groups show where the storm is expected to cross, not how intense it is.",
+    "advice_policy": "No evacuation or safety advice is included. It is not part of the signal definitions.",
+    "review_required": "Have BMD or a qualified Bangladeshi maritime authority confirm all wording before real users rely on it."
+  },
+  "sea_ports": [
+    {
+      "code": 1,
+      "name": "Distant Cautionary",
+      "verified": true,
+      "summary": "Squally weather (about 61 km/h) in the distant sea where a storm may form.",
+      "sms": "BMD sea signal 1 (Distant Cautionary): squally weather far out at sea, a storm may form."
+    },
+    {
+      "code": 2,
+      "name": "Distant Warning",
+      "verified": false,
+      "note": "Wording not confirmed against a source.",
+      "summary": "A storm has formed in the distant sea.",
+      "sms": "BMD sea signal 2 (Distant Warning): a storm has formed far out at sea."
+    },
+    {
+      "code": 3,
+      "name": "Local Cautionary",
+      "verified": true,
+      "summary": "Port threatened by squally weather, wind 40-50 km/h.",
+      "sms": "BMD sea signal 3 (Local Cautionary): port threatened by squalls, winds 40-50 km/h."
+    },
+    {
+      "code": 4,
+      "name": "Local Warning",
+      "verified": false,
+      "note": "Wind speed not confirmed against a source.",
+      "summary": "Port threatened by a storm.",
+      "sms": "BMD sea signal 4 (Local Warning): port threatened by a storm."
+    },
+    {
+      "code": 5,
+      "name": "Danger",
+      "verified": true,
+      "summary": "Slight or moderate storm (62-88 km/h) expected to cross the coast south of Chattogram or Cox's Bazar port and east of Mongla port.",
+      "sms": "BMD sea signal 5 (Danger): storm of 62-88 km/h expected to cross coast south of Chattogram/Cox's Bazar, east of Mongla."
+    },
+    {
+      "code": 6,
+      "name": "Danger",
+      "verified": true,
+      "summary": "Slight or moderate storm (62-88 km/h) expected to cross the coast north of Chattogram or Cox's Bazar port and west of Mongla port.",
+      "sms": "BMD sea signal 6 (Danger): storm of 62-88 km/h expected to cross coast north of Chattogram/Cox's Bazar, west of Mongla."
+    },
+    {
+      "code": 7,
+      "name": "Danger",
+      "verified": false,
+      "note": "Inferred from the south/north/over-or-near pattern; not confirmed for this number.",
+      "summary": "Slight or moderate storm (62-88 km/h) expected over or near the port.",
+      "sms": "BMD sea signal 7 (Danger): storm of 62-88 km/h expected over or near the port."
+    },
+    {
+      "code": 8,
+      "name": "Great Danger",
+      "verified": true,
+      "summary": "Great-intensity storm (89 km/h or more) expected to cross the coast south of Chattogram or Cox's Bazar port and east of Mongla port.",
+      "sms": "BMD sea signal 8 (Great Danger): storm of 89+ km/h expected to cross coast south of Chattogram/Cox's Bazar, east of Mongla."
+    },
+    {
+      "code": 9,
+      "name": "Great Danger",
+      "verified": false,
+      "note": "Inferred from the group pattern; one source words this signal differently.",
+      "summary": "Great-intensity storm (89 km/h or more) expected to cross the coast north of Chattogram or Cox's Bazar port and west of Mongla port.",
+      "sms": "BMD sea signal 9 (Great Danger): storm of 89+ km/h expected to cross coast north of Chattogram/Cox's Bazar, west of Mongla."
+    },
+    {
+      "code": 10,
+      "name": "Great Danger",
+      "verified": true,
+      "summary": "Great-intensity storm (89 km/h or more) expected over or near the port.",
+      "sms": "BMD sea signal 10 (Great Danger): storm of 89+ km/h expected over or near the port."
+    },
+    {
+      "code": 11,
+      "name": "Failure of Communication",
+      "verified": true,
+      "summary": "Communication with the meteorological warning centre has broken down and the local officer considers there is danger of bad weather.",
+      "sms": "BMD sea signal 11: contact with the storm warning centre is lost and the local officer sees danger of bad weather."
+    }
+  ],
+  "river_ports": [],
+  "river_ports_note": "Not loaded on purpose: the wording was not verified. Copy the 4 river signals from the BMD site and add them here."
+}

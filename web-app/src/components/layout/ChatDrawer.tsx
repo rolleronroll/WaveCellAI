@@ -1,0 +1,1 @@
+// Chat drawer layout component

@@ -1,0 +1,1 @@
+# ChromaDB vector store for WikiVoyage guide snippets

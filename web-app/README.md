@@ -1,0 +1,1 @@
+# Taranga AI Next.js Operator Dashboard

@@ -1,0 +1,29 @@
+[
+  {
+    "country": "Bangladesh",
+    "service": "Police/Fire/Ambulance",
+    "number": "999",
+    "notes": "National emergency number.",
+    "source_url": "https://bangladesh.gov.bd/pages/static-pages/69a55ba386514399668e4e89",
+    "checked_on": "2026-10-04",
+    "check_method": "compared with official government page text; NOT test-dialed"
+  },
+  {
+    "country": "Bangladesh",
+    "service": "Coast Guard",
+    "number": "16111",
+    "notes": "Coast, coastal areas, sea areas and waterways. Callable from all mobile operators.",
+    "source_url": "https://coastguard.gov.bd/pages/office-heads/6922d89ddbfbab28ce045c47",
+    "checked_on": "2026-10-04",
+    "check_method": "compared with official government page text; NOT test-dialed"
+  },
+  {
+    "country": "Bangladesh",
+    "service": "Coast Guard, ship sat phone",
+    "number": "+8809610916111",
+    "notes": "For commercial ships calling by satellite phone.",
+    "source_url": "https://coastguard.gov.bd/pages/office-heads/6922d89ddbfbab28ce045c47",
+    "checked_on": "2026-10-04",
+    "check_method": "compared with official government page text; NOT test-dialed"
+  }
+]

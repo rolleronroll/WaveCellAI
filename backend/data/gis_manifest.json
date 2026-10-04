@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-10-04T08:08:13+00:00",
+  "field_used": "territory1",
+  "countries": [
+    "Bangladesh",
+    "India",
+    "Pakistan",
+    "Sri Lanka",
+    "Myanmar",
+    "Maldives",
+    "Philippines",
+    "Vietnam",
+    "Indonesia",
+    "Thailand",
+    "Cambodia",
+    "Madagascar",
+    "Mozambique",
+    "Fiji",
+    "Vanuatu",
+    "Tonga",
+    "Kiribati",
+    "Tuvalu",
+    "Solomon Islands",
+    "Haiti",
+    "Jamaica",
+    "Dominican Republic",
+    "Cuba",
+    "Bahamas"
+  ],
+  "results": [
+    {
+      "dataset": "schema discovery",
+      "status": "OK",
+      "detail": "using field 'territory1' (found on the live layer)"
+    },
+    {
+      "dataset": "Bangladesh",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_bangladesh.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Bangladesh%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:11+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "India",
+      "status": "OK",
+      "detail": "2 feature(s) saved to data\\gis\\eez_india.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25India%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:14+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Pakistan",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_pakistan.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Pakistan%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:16+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Sri Lanka",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_sri_lanka.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Sri+Lanka%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:26+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Myanmar",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_myanmar.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Myanmar%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:28+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Maldives",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_maldives.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Maldives%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:31+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Philippines",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_philippines.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Philippines%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:37+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Vietnam",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_vietnam.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Vietnam%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:04:40+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Indonesia",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_indonesia.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Indonesia%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:38+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Thailand",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_thailand.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Thailand%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:41+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Cambodia",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_cambodia.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Cambodia%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:43+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Madagascar",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_madagascar.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Madagascar%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:45+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Mozambique",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_mozambique.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Mozambique%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:48+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Fiji",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_fiji.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Fiji%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:52+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Vanuatu",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_vanuatu.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Vanuatu%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:54+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Tonga",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_tonga.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Tonga%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:56+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Kiribati",
+      "status": "FAILED",
+      "detail": "no features matched territory1 ILIKE '%Kiribati%'"
+    },
+    {
+      "dataset": "Tuvalu",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_tuvalu.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Tuvalu%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:07:59+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Solomon Islands",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_solomon_islands.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Solomon+Islands%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:08:01+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Haiti",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_haiti.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Haiti%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:08:03+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Jamaica",
+      "status": "OK",
+      "detail": "2 feature(s) saved to data\\gis\\eez_jamaica.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Jamaica%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:08:05+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Dominican Republic",
+      "status": "OK",
+      "detail": "2 feature(s) saved to data\\gis\\eez_dominican_republic.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Dominican+Republic%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:08:07+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Cuba",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_cuba.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Cuba%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:08:10+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    },
+    {
+      "dataset": "Bahamas",
+      "status": "OK",
+      "detail": "1 feature(s) saved to data\\gis\\eez_bahamas.json",
+      "source_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=MarineRegions%3Aeez&cql_filter=territory1+ILIKE+%27%25Bahamas%25%27&outputFormat=application%2Fjson",
+      "fetched_at": "2026-10-04T08:08:12+00:00",
+      "attribution": "Flanders Marine Institute (VLIZ), Marine Regions Maritime Boundaries Geodatabase, CC BY 4.0, https://www.marineregions.org/"
+    }
+  ]
+}

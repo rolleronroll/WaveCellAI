@@ -1,0 +1,14 @@
+[
+  {
+    "zone": "East (Chattogram/Coxs Bazar)",
+    "agency": "Coast Guard MRCC",
+    "phone": "+8801769444444",
+    "channel": "VHF 16"
+  },
+  {
+    "zone": "West (Mongla/Sundarbans)",
+    "agency": "Coast Guard West",
+    "phone": "+8801769440000",
+    "channel": "VHF 16"
+  }
+]

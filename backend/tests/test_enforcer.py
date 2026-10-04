@@ -1,0 +1,1 @@
+# Test suite for GSM-7 byte limitations
