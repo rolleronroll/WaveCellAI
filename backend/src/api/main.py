@@ -18,13 +18,23 @@ app.include_router(sms_router)
 
 app.include_router(demo_relay.router)
 
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=[o.strip() for o in settings.cors_origins.split(",") if o.strip()],
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[o.strip() for o in settings.cors_origins.split(",") if o.strip()],
+    allow_origins=[
+        "https://hacknation7.vercel.app",
+        "http://localhost:3000",
+    ],
+    allow_origin_regex=r"https://hacknation7.*\.vercel\.app",
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 @app.get("/api/health")
 async def health() -> dict:

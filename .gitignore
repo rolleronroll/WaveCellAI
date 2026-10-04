@@ -6,3 +6,11 @@ output/*.json
 .env
 .DS_Store
 .vercel
+
+backend/data/gis/
+
+echo "backend/data/gis/eez_indonesia.json" >> .gitignore
+git add .gitignore && git commit -m "Ignore large GIS file"
+
+backend/data/gis/
+.env*

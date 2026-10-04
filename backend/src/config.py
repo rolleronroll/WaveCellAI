@@ -15,7 +15,8 @@ class Settings(BaseSettings):
 
     app_env: str = "development"
     log_level: str = "INFO"
-    cors_origins: str = "http://localhost:3000"
+    # cors_origins: str = "http://localhost:3000"
+    cors_origins: str = "https://hacknation7.vercel.app,http://localhost:3000"
     gateway_shared_secret: str = "change-me"
 
     # --- Small model tier: Gemini ---
