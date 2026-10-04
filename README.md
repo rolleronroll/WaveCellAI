@@ -2,7 +2,7 @@
 
 Low-bandwidth travel guide and transit routing over GSM-7 and local SQLite/ChromaDB.
 
-### LIVE DEMO :  [hacknation7.vercel.app]()
+### LIVE DEMO :  [hacknation7.vercel.app]()  &  https://wavecellai.roycoded.cc/
 
 ## ONE PAGER REPORT (Tech and Feasibility)
 
