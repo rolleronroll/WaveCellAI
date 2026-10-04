@@ -10,7 +10,7 @@ Name: Wavecell AI ( CoastCell
 user 1: Local (india)Feature Phone (Real SMS)SIM Card $\rightarrow$ Android Gateway $\rightarrow$ BackendSends real SMS back to phone 
 user 2: global (anywhere) website (ai chat) $\rightarrow$ ai server $\rightarrow$ BackendSends response back to the logged in website account
 
-Features:
+ Features:
 1.	DUAL AI server setup:
 
       A. For simple and local database request use Localai + knowledge chroma sqlite server
@@ -22,28 +22,32 @@ Features:
 5.	Works on Smart phone/ feature phone/ or no internet. 
 
 
-Pain points addressed:
+ Pain points addressed:
 1.	Coastal/maritime/remote region (especially tourism communication)
 2.	Language barriers addressed
 3.	1000 SMS would Costs half the cost of tea/coffee
 4.	Hotels and shipping sector will find customers from mid/luxury tourists 
 5.	Local guides will find work opportunity
-6.	Roughly 20 percent of women in some of the countries have feature phone, but no smart phone or internet. Women will find access to information. 
+6.	Roughly 20 percent of women in some of the global south countries have feature phone, but no smart phone, and even if they have smart phone they have no internet. 
+### 20 percent of all Women will find access to information. 
 7.	Enabling Businesses to be able to reach their low-income stakeholder in multiple sectors including micro financing institutions, agricultural sector, or maritime agent & customer.
 8.	Small-vessel marine and fishing boat safety and the Blue Economy
 
-Business/Financing model:
+
+
+ Business/Financing model:
 1.	B2B customers accessing the service
 2.	Commission from hotel/ticket/cruise booking
 3.	Service fees for finding local guidance direct from people
 4.	Break Even basis charge of Premium SMS fees operation from SMS AI chats (Spammers addressed)
+### SMS is more affordable than internet: to stay online all time is takes a smart phone nearly 1 GB of data. 1000s sms cost one third of a tea/coffee.  
 
 Personal Experience/Judgement:
 My Main Focus Was from my lived experience in Maritime Use Case
 1. Tide, Weather & Advisory 
 2. Maritime International Line (IMBL) Guardrail
 3. SOS Distress & Rescue Escalation (Human-in-the-Loop)
-4. A solution both needed by luxury demographic remote tourism and even by fisherman for Ocean fisheries sector.
+4. A solution both needed by luxury demographic remote tourism and even by fisherman for Ocean fisheries s.
 
  (The MVP shows the potential for even better success rate.)
 
@@ -63,6 +67,10 @@ My Main Focus Was from my lived experience in Maritime Use Case
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+| Encoding Type | Byte Limit | Single SMS | Multi-part SMS (Per Segment) | Examples / Usage |
+| :--- | :--- | :--- | :--- | :--- |
+| **English / Latin (GSM 7-bit)** | 140 bytes | 160 characters | 153 characters | Standard English text |
+| **Bangla, Hindi, Emojis (Unicode / UCS-2)** | 140 bytes | 70 characters | 67 characters | বাংলা, हिन्दी, or messages with emojis |
 
 
 ### Project Tree for Repository
@@ -189,8 +197,6 @@ travelai
 
 ```
 
-
-```text
 ****1. Problem Statement
 Because of OffGrid TourAI, offline travelers and remote tour operators will receive instant, multilingual travel navigation and emergency assistance **by** the moment they enter a cellular dead zone or disable data roaming **that they would otherwise** experience late, do worse, or fail to receive entirely; **we know because** over 60% of eco-tourists in remote regions disable data roaming to avoid massive fees or lose 3G/4G connectivity, leaving them completely isolated during transit crises and medical emergencies.
 
@@ -215,10 +221,9 @@ For the Traveler (User 1):** Sits passively in their native SMS messaging app. T
 For the Tour Operator (User 2):** Open on their laptop screen at the central office. It aggregates all active offline travelers into a single real-time channel, managing automated AI replies and flagging emergency cases.
 
 Tech Stack Details
-### 5. Your Take: What Localizing AI Development Means to You
+5. Localizing AI development means **Bridging the gap of Gender, Affordability and necessaity while also serving greater purpose. democratizing intelligence by adapting AI to existing infrastructure, rather than forcing vulnerable users to buy expensive hardware**.
 
-> "To us, localizing AI development means **democratizing intelligence by adapting AI to existing infrastructure, rather than forcing vulnerable users to buy expensive hardware**.
-> Silicon Valley builds AI for 5G smartphones, unlimited data plans, and high-spec web browsers. But in regions across South Asia and the global south, millions of travelers, farmers, and remote workers rely on basic cellular networks and feature phones. Localizing AI means engineering intelligent fallback routers, byte-level payload optimization, and regional language transliteration so that a farmer in Sajek or a trekker in Ladakh gets the exact same frontier intelligence as someone standing in San Francisco—over a standard 2G SMS."
+Silicon Valley builds AI for 5G smartphones, unlimited data plans, and high-spec web browsers. But in regions across South Asia and the global south, millions of travelers, farmers, and remote workers rely on basic cellular networks and feature phones. Localizing AI means engineering intelligent fallback routers, byte-level payload optimization, and regional language transliteration so that a farmer in Sajek or a trekker in Ladakh gets the exact same frontier intelligence as someone standing in San Francisco—over a standard 2G SMS."
 
 
 | **1. The Built Solution (Small AI Fidelity)** 
@@ -228,6 +233,7 @@ Tech Stack Details
 | **5. Value Proposition for AI & Clarity** 
 | **6. Scalability, Replicability & Next Steps** 
 | **7. Human in the loop, Responsible AI, Data and Safety** 
+
 ---
 
        ### Criterion Breakdown & Evaluation
