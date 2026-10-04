@@ -29,7 +29,7 @@ user 2: global (anywhere) website (ai chat) $\rightarrow$ ai server $\rightarrow
 4.	Hotels and shipping sector will find customers from mid/luxury tourists 
 5.	Local guides will find work opportunity
 6.	Roughly 20 percent of women in some of the global south countries have feature phone, but no smart phone, and even if they have smart phone they have no internet. 
-### 20 percent of all Women will find access to information. 
+### 20 percent of all Women in global south will find access to information. 
 7.	Enabling Businesses to be able to reach their low-income stakeholder in multiple sectors including micro financing institutions, agricultural sector, or maritime agent & customer.
 8.	Small-vessel marine and fishing boat safety and the Blue Economy
 
