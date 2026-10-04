@@ -1,6 +1,69 @@
-# Wavecell AI (Zero-Data SMS & AI to Bridge the Gap)
+# Wavecell AI (Zero-Data SMS & AI to Bridge the Gap and Maritime Coastal safety)
 
 Low-bandwidth travel guide and transit routing over GSM-7 and local SQLite/ChromaDB.
+
+### LIVE DEMO :  [hacknation7.vercel.app]()
+
+## ONE PAGER REPORT (Tech and Feasibility)
+
+Name: Wavecell AI ( CoastCell
+user 1: Local (india)Feature Phone (Real SMS)SIM Card $\rightarrow$ Android Gateway $\rightarrow$ BackendSends real SMS back to phone 
+user 2: global (anywhere) website (ai chat) $\rightarrow$ ai server $\rightarrow$ BackendSends response back to the logged in website account
+
+Features:
+1.	DUAL AI server setup:
+
+      A. For simple and local database request use Localai + knowledge chroma sqlite server
+   
+      B. For complex and task failed in local ai use  Frontier model server
+2.	When the Response request is made on website, response would be back to the website, no need to send back sms. When sms is send, it should be limited to sms size 160 character and 140 bytes.
+3.	User 1 and user 2 can be connected over sms via there number or app via the web login. SMS will have a footer for sender’s phone number. 
+4.	Language will be auto translated to the receivers preferred language
+5.	Works on Smart phone/ feature phone/ or no internet. 
+
+
+Pain points addressed:
+1.	Coastal/maritime/remote region (especially tourism communication)
+2.	Language barriers addressed
+3.	1000 SMS would Costs half the cost of tea/coffee
+4.	Hotels and shipping sector will find customers from mid/luxury tourists 
+5.	Local guides will find work opportunity
+6.	Roughly 20 percent of women in some of the countries have feature phone, but no smart phone or internet. Women will find access to information. 
+7.	Enabling Businesses to be able to reach their low-income stakeholder in multiple sectors including micro financing institutions, agricultural sector, or maritime agent & customer.
+8.	Small-vessel marine and fishing boat safety and the Blue Economy
+
+Business/Financing model:
+1.	B2B customers accessing the service
+2.	Commission from hotel/ticket/cruise booking
+3.	Service fees for finding local guidance direct from people
+4.	Break Even basis charge of Premium SMS fees operation from SMS AI chats (Spammers addressed)
+
+Personal Experience/Judgement:
+My Main Focus Was from my lived experience in Maritime Use Case
+1. Tide, Weather & Advisory 
+2. Maritime International Line (IMBL) Guardrail
+3. SOS Distress & Rescue Escalation (Human-in-the-Loop)
+4. A solution both needed by luxury demographic remote tourism and even by fisherman for Ocean fisheries sector.
+
+ (The MVP shows the potential for even better success rate.)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+######   ├── Frontend: Next.js 15, Tailwind CSS, TypeScript (Operator Dashboard & Feature Phone Simulator)
+
+######   ├── Mobile Gateway: Native Kotlin Android App (Intercepts SIM SMS & forwards via HTTP Webhook)
+
+######   ├── Backend Core: FastAPI (Python 3.11), Uvicorn, Pydantic
+
+######   ├── Local AI & Storage: Ollama (Phi-3 / Llama-3 8B), ChromaDB (Vector RAG), SQLite (Sessions/Logs)
+
+######   ├── Frontier AI: OpenAI API (GPT-4o) / Gemini API
+
+######  └── Enforcer Pipeline: Custom Python GSM-7 Bitwise Byte & Character Counter
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 ### Project Tree for Repository
 
@@ -120,15 +183,23 @@ travelai
             ├── api-client.ts
             └── utils.ts
 
-1. Problem Statement
+
+
+
+
+```
+
+
+```text
+****1. Problem Statement
 Because of OffGrid TourAI, offline travelers and remote tour operators will receive instant, multilingual travel navigation and emergency assistance **by** the moment they enter a cellular dead zone or disable data roaming **that they would otherwise** experience late, do worse, or fail to receive entirely; **we know because** over 60% of eco-tourists in remote regions disable data roaming to avoid massive fees or lose 3G/4G connectivity, leaving them completely isolated during transit crises and medical emergencies.
 
-2. AI Capabilities of the Solution
+****2. AI Capabilities of the Solution
  What the Tool Does with AI
 Dual AI Fallback Engine:** Uses a lightweight **Local LLM** (Phi-3 / Llama-3 via Ollama) paired with **ChromaDB Vector RAG** to answer localized transit, schedule, and FAQ queries at zero API cost. If the query requires complex reasoning or signals an emergency, it escalates to a **Frontier Model** (GPT-4o).
 Automated Translation & Transliteration:** Translates incoming native SMS messages (e.g., Bangla, French, Hindi) into English for the operator, and auto-transliterates output text back into Latin script (Banglish/Hinglish) to keep payload sizes small.
 
-Why a Simpler Tool Will Not Work
+****Why a Simpler Tool Will Not Work
 ** Plain SMS / Auto-Responders:** Cannot understand unstructured natural language queries, infer intent, or handle complex contextual questions like *"I missed my 3 PM bus and my foot is swollen, what do I do?"*
 ** A Spreadsheet / Static Database:** Requires exact keyword matches and cannot translate multi-lingual inputs or perform semantic vector searches.
 ** Web Search:** Completely useless without an active 3G/4G/5G mobile data plan or Wi-Fi connection.
@@ -144,15 +215,6 @@ For the Traveler (User 1):** Sits passively in their native SMS messaging app. T
 For the Tour Operator (User 2):** Open on their laptop screen at the central office. It aggregates all active offline travelers into a single real-time channel, managing automated AI replies and flagging emergency cases.
 
 Tech Stack Details
-
-```
-├── Frontend: Next.js 15, Tailwind CSS, TypeScript (Operator Dashboard & Feature Phone Simulator)
-├── Mobile Gateway: Native Kotlin Android App (Intercepts SIM SMS & forwards via HTTP Webhook)
-├── Backend Core: FastAPI (Python 3.11), Uvicorn, Pydantic
-├── Local AI & Storage: Ollama (Phi-3 / Llama-3 8B), ChromaDB (Vector RAG), SQLite (Sessions/Logs)
-├── Frontier AI: OpenAI API (GPT-4o) / Gemini API
-└── Enforcer Pipeline: Custom Python GSM-7 Bitwise Byte & Character Counter + NLLB Transliteration
-
 ### 5. Your Take: What Localizing AI Development Means to You
 
 > "To us, localizing AI development means **democratizing intelligence by adapting AI to existing infrastructure, rather than forcing vulnerable users to buy expensive hardware**.
@@ -195,13 +257,6 @@ Tech Stack Details
     [Auto 160-Char Response]             [Coast Guard / MRCC Dashboard]
     "High tide 14:30. Wind 12kt SE"      "RED ALERT: Vessel #401 adrift"
 
-SELF JUDGEMENT:
-My Main Focus Was from my lived experience in Maritime Use Case
-1. Tide, Weather & Squall Advisory (Level 1 Local AI — $0 Cost)
-2. Maritime International Line (IMBL) Guardrail
-3. SOS Distress & Rescue Escalation (Human-in-the-Loop)
-
- (The MVP shows the potential for even better success rate.)
 
 
 
